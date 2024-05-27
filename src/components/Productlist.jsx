@@ -1,11 +1,8 @@
 import { useState } from "react";
+import { products } from "../data/products";
 
 function ProductList() {
-	const [products, setProducts] = useState([
-		{ name: "jeans", price: 500, inStock: true },
-		{ name: "shorts", price: 200, inStock: false },
-		{ name: "shirt", price: 350, inStock: true },
-	]);
+	const [products, setProducts] = useState(products);
 
 	return (
 		<ul>
