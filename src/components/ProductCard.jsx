@@ -15,3 +15,5 @@ ProductCard.propTypes = {
 	price: PropTypes.number,
 	inStock: PropTypes.bool,
 };
+
+export default ProductCard;
